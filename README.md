@@ -9,7 +9,7 @@ Welcome to my central repository documenting my progress during the **Syntecxhub
 | Phase / Task | Project Module | Technical Core | Status |
 | :--- | :--- | :--- | :--- |
 | **Task 1** | 🚀 [Maze Solver using A* Search](./Syntecxhub_AStar_Maze) | Heuristic Search, State Space Graphs, Manhattan Distance | `🟢Completed` |
-| **Task 2** | 🔹 [Sentiment Analysis Tool](./Syntecxhub_Sentiment_Analysis_Tool) | Natural Language Processing (NLP), Text Vectorization, Supervised Classifiers | `🟢Completed` |
+| **Task 2** | 🚀 [Sentiment Analysis Tool](./Syntecxhub_Sentiment_Analysis_Tool) | Natural Language Processing (NLP), Text Vectorization, Supervised Classifiers | `🟢Completed` |
 | **Task 3** | 🔹 Upcoming AI Task | *To be determined* | `⏳ Pending` |
 
 ---
