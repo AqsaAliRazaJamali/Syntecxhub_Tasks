@@ -8,8 +8,8 @@ Welcome to my central repository documenting my progress during the **Syntecxhub
 
 | Phase / Task | Project Module | Technical Core | Status |
 | :--- | :--- | :--- | :--- |
-| **Task 1** | 🚀 [Maze Solver using A* Search](./Syntecxhub_AStar_Maze) | Heuristic Search, State Space Graphs, Manhattan Distance | `🟢 Completed` |
-| **Task 2** | 🔹 Upcoming AI Task | *To be determined* | `⏳ Pending` |
+| **Task 1** | 🚀 [Maze Solver using A* Search](./Syntecxhub_AStar_Maze) | Heuristic Search, State Space Graphs, Manhattan Distance | **🟢 Completed** |
+| **Task 2** | 🔹 [Sentiment Analysis Tool](./Syntecxhub_Sentiment_Analysis_Tool) | Natural Language Processing (NLP), Text Vectorization, Supervised Classifiers | **🟢 Completed** |
 | **Task 3** | 🔹 Upcoming AI Task | *To be determined* | `⏳ Pending` |
 
 ---
@@ -22,6 +22,11 @@ Welcome to my central repository documenting my progress during the **Syntecxhub
   $$f(n) = g(n) + h(n)$$
   Where $g(n)$ is the exact cost from the start node to the current cell, and $h(n)$ is the estimated cost to the goal using **Manhattan Distance** heuristics. Includes customized tie-breaking tuple logic to keep the search beam focused directly toward the target destination.
 - **UI Component:** Uses an interactive, high-refresh Tkinter visualizer (`pyamaze`) to trace agent footprint expansion in real-time.
+
+### Task 2: Sentiment Analysis Tool
+- **Objective:** Build an end-to-end classification pipeline to load text arrays, run text sanitation patterns, transform descriptive strings into geometric numeric vectors, and train predictive weights.
+- **AI Core:** Integrates text vectorization transforms (TF-IDF / Count Matrix) alongside probabilistic structural models (**Multinomial Naive Bayes**) and linear classification layers (**Logistic Regression** with balanced class weighting variables).
+- **UI Component:** Launches a direct interactive text analysis shell checking customized test inputs, displaying real-time confidence scores and localized probability parameters.
 
 ---
 
