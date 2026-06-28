@@ -49,3 +49,20 @@ pip install -r requirements.txt
 
 # 5. Launch the AI engine
 python Maze_solver.py
+
+---
+
+## 👩‍💻 Author
+
+<div align="center">
+
+### **Aqsa Jamali**
+
+**AI Intern @ Syntecxhub**
+
+Passionate about **Artificial Intelligence, Machine Learning, and Software Engineering**.
+
+[![GitHub](https://img.shields.io/badge/GitHub-AqsaAliRazaJamali-181717?style=for-the-badge&logo=github)](https://github.com/AqsaAliRazaJamali)
+
+</div>
+
