@@ -49,6 +49,7 @@ pip install -r requirements.txt
 
 # 5. Launch the AI engine
 python Maze_solver.py
+```
 
 ---
 
