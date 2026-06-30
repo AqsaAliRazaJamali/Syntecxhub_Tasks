@@ -1,4 +1,4 @@
-# Syntecxhub Internship - Artificial Intelligence (AI)
+# Syntecxhub Internship - Artificial Intelligence(AI)
 
 Welcome to my central repository documenting my progress during the **Syntecxhub Artificial Intelligence Internship**. This repository acts as a comprehensive dashboard showcasing algorithmic implementations, machine learning models, and automated AI solutions completed throughout the program.
 
