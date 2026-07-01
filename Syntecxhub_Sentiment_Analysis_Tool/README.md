@@ -1,6 +1,7 @@
 # Task 2: Sentiment Analysis Tool
 
 <p align="center">
+  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Uvicorn](https://img.shields.io/badge/Uvicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=white)
@@ -12,6 +13,7 @@
 ![Lucide](https://img.shields.io/badge/Lucide_React-f97316?style=for-the-badge&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
 </p>
 
 <p align="center">
