@@ -2,10 +2,7 @@
 
 <p align="center">
   
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-NLP-success)
-![Project](https://img.shields.io/badge/Project-Sentiment%20Analysis-blue)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/Machine%20Learning-NLP-success?style=for-the-badge" alt="Machine Learning"> <img src="https://img.shields.io/badge/Project-Sentiment%20Analysis-blue?style=for-the-badge" alt="Project"> <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" alt="Status">
 
 </p>
 
