@@ -114,7 +114,7 @@ python gesture_control.py
 
 To determine whether a finger is **open** or **closed**, the application compares the vertical position of the fingertip with its corresponding MCP (metacarpophalangeal) joint.
 
-Mathematically,
+The condition is:
 
 ```text
 Y_tip < Y_mcp
@@ -123,6 +123,7 @@ Since image coordinates increase downward, a smaller **Y-coordinate** indicates 
 
 ---
 
+````md
 ### 2. Euclidean Distance Calculation
 
 To distinguish a **Thumbs Up** gesture from a closed **Fist**, the application computes the Euclidean distance between the thumb tip and the index finger MCP joint.
