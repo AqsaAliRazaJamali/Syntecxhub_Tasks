@@ -121,8 +121,6 @@ Y_tip < Y_mcp
 
 Since image coordinates increase downward, a smaller **Y-coordinate** indicates that the fingertip is positioned higher on the screen.
 
----
-
 ````md
 ### 2. Euclidean Distance Calculation
 
