@@ -154,8 +154,6 @@ If the computed distance exceeds **0.12** while the remaining fingers remain fol
 
 **AI Intern @ Syntecxhub**
 
-Passionate about **Artificial Intelligence, Computer Vision, and Machine Learning**.
-
 [![GitHub](https://img.shields.io/badge/GitHub-AqsaAliRazaJamali-181717?style=for-the-badge&logo=github)](https://github.com/AqsaAliRazaJamali)
 
 </div>
