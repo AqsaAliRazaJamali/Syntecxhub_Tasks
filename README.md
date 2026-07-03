@@ -10,7 +10,7 @@ Welcome to my central repository documenting my progress during the **Syntecxhub
 | :--- | :--- | :--- | :--- |
 | **Task 1** | 🚀 [Maze Solver using A* Search](./Syntecxhub_AStar_Maze) | Heuristic Search, State Space Graphs, Manhattan Distance | `🟢Completed` |
 | **Task 2** | 🚀 [Sentiment Analysis Tool](./Syntecxhub_Sentiment_Analysis_Tool) | Natural Language Processing (NLP), Text Vectorization, Supervised Classifiers | `🟢Completed` |
-| **Task 3** | 🖐️ [Hand Gesture Recognition](./Syntecxhub_Hand_Gesture_Recognition) | Computer Vision, Real-Time Landmark Tracking, Gesture Mapping Matrices | `🟢Completed` |
+| **Task 3** | ✋ [Hand Gesture Recognition](./Syntecxhub_Hand_Gesture_Recognition) | Computer Vision, Real-Time Landmark Tracking, Gesture Mapping Matrices | `🟢Completed` |
 
 ---
 
