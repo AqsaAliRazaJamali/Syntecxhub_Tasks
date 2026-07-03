@@ -127,9 +127,8 @@ Since image coordinates increase downward, a smaller **Y-coordinate** indicates 
 
 To distinguish a **Thumbs Up** gesture from a closed **Fist**, the application computes the Euclidean distance between the thumb tip and the index finger MCP joint.
 
-$$
-d = \sqrt{(x_1-x_2)^2 + (y_1-y_2)^2}
-$$
+```text
+d = √((x1 - x2)² + (y1 - y2)²)
 
 Python implementation:
 
