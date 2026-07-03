@@ -148,11 +148,17 @@ If the computed distance exceeds **0.12** while the remaining fingers remain fol
 
 ## 👩‍💻 Author
 
+<div align="center">
+
 ### **Aqsa Jamali**
 
 **AI Intern @ Syntecxhub**
 
 Passionate about **Artificial Intelligence, Computer Vision, and Machine Learning**.
+
+[![GitHub](https://img.shields.io/badge/GitHub-AqsaAliRazaJamali-181717?style=for-the-badge&logo=github)](https://github.com/AqsaAliRazaJamali)
+
+</div>
 
 ---
 
@@ -162,4 +168,8 @@ This project was developed exclusively for **academic learning and internship ev
 
 ---
 
+<div align="center">
+
 ⭐ If you found this project useful, consider giving it a star!
+
+</div>
