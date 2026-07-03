@@ -1,5 +1,17 @@
 # Real-Time Hand Gesture Recognition & Media Control
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Computer%20Vision-MediaPipe-success?style=for-the-badge" alt="Computer Vision">
+  <img src="https://img.shields.io/badge/Project-Hand%20Gesture%20Recognition-blue?style=for-the-badge" alt="Project">
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" alt="Status">
+</p>
+
+<p align="center">
+  An intelligent <strong>Computer Vision</strong> application that recognizes hand gestures in real time using a webcam.<br>
+  The system maps recognized gestures to media control actions through deep-learning hand-tracking models.
+</p>
+
 ---
 
 ## Project Overview
