@@ -1,6 +1,7 @@
 import cv2
 import mediapipe as mp
 import math
+import pyautogui 
 
 mp_hands = mp.solutions.hands
 mp_drawing = mp.solutions.drawing_utils
@@ -13,11 +14,13 @@ hands = mp_hands.Hands(
 
 cap = cv2.VideoCapture(0)
 
-# Helper function to calculate distance between two landmarks
+cooldown_counter = 0
+COOLDOWN_LIMIT = 10  
+
 def get_distance(p1, p2):
     return math.sqrt((p1.x - p2.x)**2 + (p1.y - p2.y)**2)
 
-print("Starting Gesture Recognition... Press 'q' to quit.")
+print("Starting Live Gesture Control... Press 'q' to quit.")
 
 while cap.isOpened():
     success, frame = cap.read()
@@ -31,25 +34,22 @@ while cap.isOpened():
     gesture = "Looking for Hand..."
     action = "None"
 
+    if cooldown_counter > 0:
+        cooldown_counter -= 1
+
     if results.multi_hand_landmarks:
         for hand_landmarks in results.multi_hand_landmarks:
             mp_drawing.draw_landmarks(frame, hand_landmarks, mp_hands.HAND_CONNECTIONS)
             
             landmarks = hand_landmarks.landmark
-            
-            # Get landmarks for detection
+ 
             thumb_tip = landmarks[4]
-            thumb_ip = landmarks[3]
-            
             index_tip = landmarks[8]
-            index_mcp = landmarks[5]     # Index base knuckle
-            
+            index_mcp = landmarks[5]
             middle_tip = landmarks[12]
             middle_mcp = landmarks[9]
-            
             ring_tip = landmarks[16]
             ring_mcp = landmarks[13]
-            
             pinky_tip = landmarks[20]
             pinky_mcp = landmarks[17]
 
@@ -63,15 +63,23 @@ while cap.isOpened():
             if index_open and middle_open and ring_open and pinky_open:
                 gesture = "Open Palm"
                 action = "PLAY MEDIA"
+                if cooldown_counter == 0:
+                    pyautogui.press('playpause')
+                    cooldown_counter = COOLDOWN_LIMIT
 
             elif not index_open and not middle_open and not ring_open and not pinky_open:
-             
                 if thumb_separation > 0.12:
                     gesture = "Thumbs Up"
                     action = "VOLUME UP"
+                    if cooldown_counter == 0:
+                        pyautogui.press('volumeup')
+                        cooldown_counter = 3 
                 else:
                     gesture = "Fist"
                     action = "PAUSE MEDIA"
+                    if cooldown_counter == 0:
+                        pyautogui.press('playpause')
+                        cooldown_counter = COOLDOWN_LIMIT
 
     cv2.rectangle(frame, (10, 10), (400, 100), (0, 0, 0), -1)
     cv2.putText(frame, f"Gesture: {gesture}", (20, 45), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 255, 0), 2)
