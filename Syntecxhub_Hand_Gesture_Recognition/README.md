@@ -1,17 +1,5 @@
 # Real-Time Hand Gesture Recognition & Media Control
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Computer%20Vision-MediaPipe-success?style=for-the-badge" alt="Computer Vision">
-  <img src="https://img.shields.io/badge/Project-Hand%20Gesture%20Recognition-blue?style=for-the-badge" alt="Project">
-  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" alt="Status">
-</p>
-
-<p align="center">
-  An intelligent <strong>Computer Vision</strong> application that recognizes hand gestures in real time using a webcam.<br>
-  The system maps recognized gestures to media control actions through deep-learning hand-tracking models.
-</p>
-
 ---
 
 ## Project Overview
@@ -28,34 +16,34 @@ Developed as **Task 3** during my **Artificial Intelligence Internship** at **Sy
 
 ---
 
-##  Core Features
+## Core Features
 
--  **Dynamic Hardware Interfacing**  
+- **Dynamic Hardware Interfacing**  
   Captures real-time video frames directly from the webcam using OpenCV.
 
--  **High-Fidelity Landmark Tracking**  
+- **High-Fidelity Landmark Tracking**  
   Utilizes **Google MediaPipe Hands** to detect and track **21 three-dimensional hand landmarks** with low latency.
 
--  **Geometric Gesture Classification**  
+- **Geometric Gesture Classification**  
   Classifies gestures by evaluating:
   - Relative Y-axis landmark positions
   - Euclidean distance thresholds
   - Finger state relationships
 
--  **Gesture-to-Action Mapping**
+- **Gesture-to-Action Mapping**
 
-  | Gesture | Action |
-  |---------|--------|
-  | ✋ Open Palm | `PLAY MEDIA` |
-  | ✊ Fist | `PAUSE MEDIA` |
-  | 👍 Thumbs Up | `VOLUME UP` |
+| Gesture | Action |
+|----------|--------|
+| ✋ Open Palm | `PLAY MEDIA` |
+| ✊ Fist | `PAUSE MEDIA` |
+| 👍 Thumbs Up | `VOLUME UP` |
 
--  **Real-Time Heads-Up Display (HUD)**  
+- **Real-Time Heads-Up Display (HUD)**  
   Displays detected gestures and corresponding media actions directly on the live video feed.
 
 ---
 
-##  Tech Stack & Dependencies
+## Tech Stack & Dependencies
 
 | Library / Tool | Purpose |
 |----------------|---------|
@@ -66,7 +54,7 @@ Developed as **Task 3** during my **Artificial Intelligence Internship** at **Sy
 
 ---
 
-##  Project Structure
+## Project Structure
 
 ```text
 Syntecxhub_Tasks/
@@ -84,7 +72,7 @@ Syntecxhub_Tasks/
 
 ---
 
-##  Installation & Setup
+## Installation & Setup
 
 ### 1️⃣ Navigate to the Project Directory
 
@@ -108,26 +96,29 @@ python gesture_control.py
 
 ---
 
-##  Algorithmic Logic Breakdown
+## Algorithmic Logic Breakdown
 
 ### 1. Finger State Detection
 
 To determine whether a finger is **open** or **closed**, the application compares the vertical position of the fingertip with its corresponding MCP (metacarpophalangeal) joint.
 
-The condition is:
+Mathematically,
 
 ```text
 Y_tip < Y_mcp
+```
 
 Since image coordinates increase downward, a smaller **Y-coordinate** indicates that the fingertip is positioned higher on the screen.
 
-````md
+---
+
 ### 2. Euclidean Distance Calculation
 
 To distinguish a **Thumbs Up** gesture from a closed **Fist**, the application computes the Euclidean distance between the thumb tip and the index finger MCP joint.
 
 ```text
 d = √((x1 - x2)² + (y1 - y2)²)
+```
 
 Python implementation:
 
@@ -145,17 +136,11 @@ If the computed distance exceeds **0.12** while the remaining fingers remain fol
 
 ## 👩‍💻 Author
 
-<div align="center">
-
 ### **Aqsa Jamali**
 
 **AI Intern @ Syntecxhub**
 
 Passionate about **Artificial Intelligence, Computer Vision, and Machine Learning**.
-
-[![GitHub](https://img.shields.io/badge/GitHub-AqsaAliRazaJamali-181717?style=for-the-badge&logo=github)](https://github.com/AqsaAliRazaJamali)
-
-</div>
 
 ---
 
@@ -165,8 +150,4 @@ This project was developed exclusively for **academic learning and internship ev
 
 ---
 
-<div align="center">
-
 ⭐ If you found this project useful, consider giving it a star!
-
-</div>
