@@ -1,4 +1,4 @@
-# Task 3: Real-Time Hand Gesture Recognition & Media Control
+# Real-Time Hand Gesture Recognition & Media Control
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
@@ -14,7 +14,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project tracks hand landmarks from a live webcam feed using **MediaPipe Hands**. By extracting precise landmark coordinates, computing Euclidean distances, and evaluating relative spatial relationships between joints, the application classifies hand gestures such as:
 
@@ -30,19 +30,19 @@ Developed as **Task 3** during my **Artificial Intelligence Internship** at **Sy
 
 ##  Core Features
 
-- 📹 **Dynamic Hardware Interfacing**  
+-  **Dynamic Hardware Interfacing**  
   Captures real-time video frames directly from the webcam using OpenCV.
 
-- 🎯 **High-Fidelity Landmark Tracking**  
+-  **High-Fidelity Landmark Tracking**  
   Utilizes **Google MediaPipe Hands** to detect and track **21 three-dimensional hand landmarks** with low latency.
 
-- 📐 **Geometric Gesture Classification**  
+-  **Geometric Gesture Classification**  
   Classifies gestures by evaluating:
   - Relative Y-axis landmark positions
   - Euclidean distance thresholds
   - Finger state relationships
 
-- 🎬 **Gesture-to-Action Mapping**
+-  **Gesture-to-Action Mapping**
 
   | Gesture | Action |
   |---------|--------|
@@ -50,12 +50,12 @@ Developed as **Task 3** during my **Artificial Intelligence Internship** at **Sy
   | ✊ Fist | `PAUSE MEDIA` |
   | 👍 Thumbs Up | `VOLUME UP` |
 
-- 🖥️ **Real-Time Heads-Up Display (HUD)**  
+-  **Real-Time Heads-Up Display (HUD)**  
   Displays detected gestures and corresponding media actions directly on the live video feed.
 
 ---
 
-## 🛠️ Tech Stack & Dependencies
+##  Tech Stack & Dependencies
 
 | Library / Tool | Purpose |
 |----------------|---------|
@@ -66,7 +66,7 @@ Developed as **Task 3** during my **Artificial Intelligence Internship** at **Sy
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 Syntecxhub_Tasks/
@@ -84,7 +84,7 @@ Syntecxhub_Tasks/
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ### 1️⃣ Navigate to the Project Directory
 
@@ -108,7 +108,7 @@ python gesture_control.py
 
 ---
 
-## 🧠 Algorithmic Logic Breakdown
+##  Algorithmic Logic Breakdown
 
 ### 1. Finger State Detection
 
