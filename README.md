@@ -10,7 +10,7 @@ Welcome to my central repository documenting my progress during the **Syntecxhub
 | :--- | :--- | :--- | :--- |
 | **Task 1** | 🚀 [Maze Solver using A* Search](./Syntecxhub_AStar_Maze) | Heuristic Search, State Space Graphs, Manhattan Distance | `🟢Completed` |
 | **Task 2** | 🚀 [Sentiment Analysis Tool](./Syntecxhub_Sentiment_Analysis_Tool) | Natural Language Processing (NLP), Text Vectorization, Supervised Classifiers | `🟢Completed` |
-| **Task 3** | 🔹 Upcoming AI Task | *To be determined* | `⏳ Pending` |
+| **Task 3** | 🖐️ [Hand Gesture Recognition](./Syntecxhub_Hand_Gesture_Recognition) | Computer Vision, Real-Time Landmark Tracking, Gesture Mapping Matrices | `🟢Completed` |
 
 ---
 
@@ -27,6 +27,11 @@ Welcome to my central repository documenting my progress during the **Syntecxhub
 - **Objective:** Build an end-to-end classification pipeline to load text arrays, run text sanitation patterns, transform descriptive strings into geometric numeric vectors, and train predictive weights.
 - **AI Core:** Integrates text vectorization transforms (TF-IDF / Count Matrix) alongside probabilistic structural models (**Multinomial Naive Bayes**) and linear classification layers (**Logistic Regression** with balanced class weighting variables).
 - **UI Component:** Launches a direct interactive text analysis shell checking customized test inputs, displaying real-time confidence scores and localized probability parameters.
+
+### Task 3: Real-Time Hand Gesture Recognition & Media Control
+- **Objective:** Utilize live video tracking streams to parse architectural hand coordinates, detect structural finger profiles, and translate orientations to functional system commands.
+- **AI Core:** Integrates **MediaPipe Hands** models to locate 21 distinct coordinate vectors in real-time, relying on relative spatial constraints and Euclidean distances to trigger gesture classifications.
+- **UI Component:** Renders an overlaid OpenCV feed projecting spatial bounding lines onto hand joints, logging precise execution labels dynamically.
 
 ---
 
