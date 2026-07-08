@@ -11,6 +11,7 @@ Welcome to my central repository documenting my progress during the **Syntecxhub
 | **Task 1** | 🚀 [Maze Solver using A* Search](./Syntecxhub_AStar_Maze) | Heuristic Search, State Space Graphs, Manhattan Distance | `🟢Completed` |
 | **Task 2** | 🚀 [Sentiment Analysis Tool](./Syntecxhub_Sentiment_Analysis_Tool) | Natural Language Processing (NLP), Text Vectorization, Supervised Classifiers | `🟢Completed` |
 | **Task 3** | ✋ [Hand Gesture Recognition](./Syntecxhub_Hand_Gesture_Recognition) | Computer Vision, Real-Time Landmark Tracking, Gesture Mapping Matrices | `🟢Completed` |
+| **Task 4** | 🎙️ [Personal Voice Assistant](./Syntecxhub_Personal_Voice_Assistant) | Speech-to-Text / TTS Engines, Desktop Automation, Exception Handlers | `🟢Completed` |
 
 ---
 
@@ -32,6 +33,11 @@ Welcome to my central repository documenting my progress during the **Syntecxhub
 - **Objective:** Utilize live video tracking streams to parse architectural hand coordinates, detect structural finger profiles, and translate orientations to functional system commands.
 - **AI Core:** Integrates **MediaPipe Hands** models to locate 21 distinct coordinate vectors in real-time, relying on relative spatial constraints and Euclidean distances to trigger gesture classifications.
 - **UI Component:** Renders an overlaid OpenCV feed projecting spatial bounding lines onto hand joints, logging precise execution labels dynamically.
+
+### Task 4: Automated Personal Voice Assistant
+- **Objective:** Establish a live audio processing system that takes verbal user prompts via microphone signals, extracts text commands, maps them to system tasks, and reads voice responses out loud.
+- **AI Core:** Implements live voice signal tokenization filters alongside ambient threshold modifiers to isolate keywords for `subprocess` handling and browser window management wrappers.
+- **UI Component:** Displays an in-shell interactive interactive help logging suite that maps real-time user-to-assistant dialogues while managing underlying background speech threads.
 
 ---
 
