@@ -1,11 +1,11 @@
 # Automated Personal Voice Assistant
 
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![AI](https://img.shields.io/badge/Artificial%20Intelligence-Project-blueviolet?style=for-the-badge)
-![Speech Recognition](https://img.shields.io/badge/Speech-Recognition-success?style=for-the-badge)
-![TTS](https://img.shields.io/badge/Text--to--Speech-pyttsx3-orange?style=for-the-badge)
-![Internship](https://img.shields.io/badge/Syntecxhub-AI%20Internship-FF6B00?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
+![AI](https://img.shields.io/badge/Artificial%20Intelligence-Project-blueviolet)
+![Speech Recognition](https://img.shields.io/badge/Speech-Recognition-success)
+![TTS](https://img.shields.io/badge/Text--to--Speech-pyttsx3-orange)
+![Internship](https://img.shields.io/badge/Syntecxhub-AI%20Internship-FF6B00)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 An interactive, multi-threaded offline desktop Voice Assistant engineered using Python. The application implements automated speech-to-text signal capture, rule-based command processing, and real-time text-to-speech (TTS) responses.
 
