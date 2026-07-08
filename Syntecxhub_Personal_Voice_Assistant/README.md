@@ -50,7 +50,7 @@ This application transforms live microphone input into executable system command
 ##  Project Structure
 
 ```text
-Syntecxhub_Task4_Voice_Assistant/
+Syntecxhub_Personal_Voice_Assistant/
 │
 ├── assistant.py          # Main application source code
 ├── requirements.txt      # Project dependencies
